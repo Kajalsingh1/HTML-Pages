@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>animation</title>
+	<style type="text/css">
+		.page{
+			height: 450px;
+			width: 1500px;
+			background: linear-gradient(cyan,cyan,midnightblue);
+			margin-top: 300px;
+			
+		}
+		.page1{
+			height: 450px;
+			width: 1500px;
+			background: linear-gradient(#884dff,cyan,#884dff);
+			margin-top: -300px;
+			position: absolute;
+		}
+		.moon{
+			height: 100px;
+			width: 100px;
+			border-radius: 100%;
+		 background: white;
+			margin-top: 100px;
+			position: absolute;
+			margin-left: 1100px;
+			 box-shadow: 0px 5px 5px 5px white;
+
+    }
+		
+		.t1{
+			height: 0;
+			width: 0;
+			border-left: 150px solid transparent;
+            border-right: 150px solid transparent;
+  			border-bottom: 150px solid #483d8b;
+  			margin-left: 820px;
+  			position: absolute;
+  			margin-top: 300px;
+  			opacity: 0.9;
+  			
+
+		}
+		.t2{
+			height: 0;
+			width: 0;
+			border-left: 120px solid transparent;
+            border-right: 120px solid transparent;
+  			border-bottom: 120px solid #483d8b;
+  			margin-left: 1000px;
+  			position: absolute;
+  			margin-top: 330px;
+  			opacity: 0.9;
+  		
+		}
+		.t3{
+			height: 0;
+			width: 0;
+			border-left: 150px solid transparent;
+            border-right: 150px solid transparent;
+  			border-bottom: 150px solid 	#483d8b;
+  			margin-left: 1150px;
+  			position: absolute;
+  			margin-top: 300px;
+  			opacity: 0.9;
+  			
+		}
+		.t4{
+			height: 0;
+			width: 0;
+			border-left: 100px solid transparent;
+            border-right: 100px solid transparent;
+  			border-bottom: 100px solid #483d8b;
+  			margin-left: 1100px;
+  			position: absolute;
+  			margin-top: 350px;
+  			opacity: 0.9;
+  		
+		}
+		.voat{
+			height: 90px;
+			width: 90px;
+  			margin-left: 700px;
+  			margin-top: 450px;
+  			position: absolute;
+  			animation: path 6s linear infinite;
+  			 
+  	}
+  	@keyframes  path{
+  		0%{
+  			transform: translate(0,0);
+  		}
+  		100%{
+  			transform: translate(-550px, 0px);
+  		}
+  	}
+		.base{
+			height: 25px;
+			width: 60px;
+			background: #483d8b;
+			border-radius: 0px 0px 10px 20px;
+			margin-top: 150px;
+			position: absolute;
+
+		}
+		.b1{
+			height: 0px;
+			width: 0px;
+			border-bottom: 45px solid #483d8b;
+			border-top: 5px solid transparent;
+			border-left:  30px solid transparent;
+			border-right: 0px solid transparent;
+			margin-top: 97px;
+			position: absolute;
+			margin-left: 1px;
+
+		}
+		.b2{
+			height: 0px;
+			width: 0px;
+			border-bottom: 45px solid #483d8b;
+			border-top: 5px solid transparent;
+			border-left:  0px solid transparent;
+			border-right: 20px solid transparent;
+			margin-top: 97px;
+			margin-left: 35px;
+		}
+
+		.line{
+			height: 60px;
+			width: 350px;
+			background: #3d3d5c;
+			margin-top: 830px;
+			position: absolute;
+			transform: skewX(5deg);
+            border-radius: 10px;
+		}
+		.tr1{
+			height: 0;
+			width: 0;
+			border-left: 78px solid transparent;
+            border-right: 60px solid transparent;
+  			border-bottom: 70px solid #c1c1d7;
+  			margin-top: 350px;
+  			position: absolute;
+  			margin-left: 55px;
+  			transform: rotateZ(-48deg);
+  			
+
+		}
+	.tr2{
+			height: 0;
+			width: 0;
+			border-left: 75px solid transparent;
+            border-right: 60px solid transparent;
+  			border-bottom: 70px solid #3d3d5c;
+  			margin-top: 395px;
+  			position: absolute;
+  			margin-left: 109px;
+  			transform: rotateZ(-228deg);
+  			}
+  			.tr3{
+			height: 0;
+			width: 0;
+			border-left: 75px solid transparent;
+            border-right: 60px solid transparent;
+  			border-bottom: 70px solid #3d3d5c;
+  			margin-top: 450px;
+  			position: absolute;
+  			margin-left: 58px;
+  			transform: rotateZ(-48deg);
+		}
+		.tr4{
+			height: 0;
+			width: 0;
+			border-left: 75px solid transparent;
+            border-right: 60px solid transparent;
+  			border-bottom: 70px solid #c1c1d7;
+  			margin-top: 496px;
+  			position: absolute;
+  			margin-left: 110px;
+  			transform: rotateZ(-228deg);
+  			}
+		.tr5{
+			height: 0;
+			width: 0;
+			border-left: 75px solid transparent;
+            border-right: 60px solid transparent;
+  			border-bottom: 70px solid #c1c1d7;
+  			margin-top:551px;
+  			position: absolute;
+  			margin-left: 59px;
+  			transform: rotateZ(-48deg);
+		}
+  	   .tr6{
+			height: 0;
+			width: 0;
+			border-left: 75px solid transparent;
+            border-right: 60px solid transparent;
+  			border-bottom: 70px solid #3d3d5c;
+  			margin-top: 597px;
+  			position: absolute;
+  			margin-left: 112px;
+  			transform: rotateZ(-228deg);
+  			}
+  	 .tr7{
+			height: 0;
+			width: 0;
+			border-left: 75px solid transparent;
+            border-right: 60px solid transparent;
+  			border-bottom: 70px solid #3d3d5c;
+  			margin-top:652px;
+  			position: absolute;
+  			margin-left: 62px;
+  			transform: rotateZ(-48deg);
+		}
+  		.tr8{
+			height: 0;
+			width: 0;
+			border-left: 75px solid transparent;
+            border-right: 60px solid transparent;
+  			border-bottom: 70px solid #c1c1d7;
+  			margin-top: 698px;
+  			position: absolute;
+  			margin-left: 114px;
+  			transform: rotateZ(-228deg);
+  			}
+  		.tr9{
+			height: 0;
+			width: 0;
+			border-left: 75px solid transparent;
+            border-right: 60px solid transparent;
+  			border-bottom: 70px solid #c1c1d7;
+  			margin-top:753px;
+  			position: absolute;
+  			margin-left: 64px;
+  			transform: rotateZ(-48deg);
+		}
+		.tr10{
+			height: 0;
+			width: 0;
+			border-left: 75px solid transparent;
+            border-right: 60px solid transparent;
+  			border-bottom: 70px solid #3d3d5c;
+  			margin-top: 800px;
+  			position: absolute;
+  			margin-left: 116px;
+  			transform: rotateZ(-228deg);
+  			}
+  			.door{
+  				height: 90px;
+  				width: 40px;
+  				background:#3d3d5c;
+  				box-shadow: 1px 0px 1px 0px grey;
+  				margin-left: 137px;
+  				margin-top: 740px;
+  				position: absolute;
+  				
+  			}
+  			.st1{
+  					color: grey;
+  					margin-left: 137px;
+  					margin-top: 790px;
+  					position: absolute;
+  			}
+  			.st2{
+  					color: grey;
+  					margin-left: 136px;
+  					margin-top: 797px;
+  					position: absolute;
+  			}
+  			.win1{
+  				height: 30px;
+  				width: 25px;
+  				background: #3d3d5c;
+  				margin-left: 137px;
+  				margin-top: 600px;
+  				position: absolute;
+  				border-radius: 40px 40px 0px 0px;
+  				box-shadow: 1px 1px 0px 0px grey;
+  			}
+  			.win2{
+  				height: 30px;
+  				width: 25px;
+  				background: #3d3d5c;
+  				margin-left: 137px;
+  				margin-top: 500px;
+  				position: absolute;
+  				border-radius: 40px 40px 0px 0px;
+  				box-shadow: 0px 0px 1px 1px grey;
+  			}
+  			.win3{
+  				height: 30px;
+  				width: 25px;
+  				background:#3d3d5c;
+  				margin-left: 137px;
+  				margin-top: 390px;
+  				position: absolute;
+  				border-radius: 40px 40px 0px 0px;
+  				box-shadow: 1px 1px 0px 0px grey;
+  			}
+  			.rect{
+  				height: 10px;
+  				width: 85px;
+  				border:  solid 4px #3d3d5c;
+  				margin-top: 349px;
+  				margin-left: 104px;
+  				position: absolute;
+  				background:  #c1c1d7;
+  			}
+  			.l1{
+  				height: 10px;
+  				width: 4px;
+  				background:  #3d3d5c;
+  				margin-left: 8px;
+
+  			}
+  			.l2{
+  				height: 10px;
+  				width: 4px;
+  				background:  #3d3d5c;
+  				margin-left: 20px;
+  				margin-top: -10px;
+  			}
+  			.l3{
+  				height: 10px;
+  				width: 4px;
+  				background:  #3d3d5c;
+  				margin-left: 33px;
+  				margin-top: -10px;
+  			}
+  			.l4{
+  				height: 10px;
+  				width: 4px;
+  				background:  #3d3d5c;
+  				margin-left: 45px;
+  				margin-top: -10px;
+  			}
+  			.l5{
+  				height: 10px;
+  				width: 4px;
+  				background:  #3d3d5c;
+  				margin-left: 57px;
+  				margin-top: -10px;
+  			}
+  			.l6{
+  				height: 10px;
+  				width: 4px;
+  				background:  #3d3d5c;
+  				margin-left: 70px;
+  				margin-top: -10px;
+  			}
+  			.w1{
+  					width: 80px;
+  					height: 30px;
+  					border: solid 4px #3d3d5c;
+  					margin-left: 107px;
+  					margin-top: 315px;
+  					position: absolute; 
+  					background: #c1c1d7;
+  			}
+  			.wi1{
+  				height: 30px;
+  				width: 4px;
+  				background: #3d3d5c;
+  				margin-left: 17px; 
+  			}
+  			.wi2{
+  				height: 30px;
+  				width: 4px;
+  				background: #3d3d5c;
+  				margin-left: 40px;
+  				margin-top: -30px; 
+  			}
+  			.wi3{
+  				height: 30px;
+  				width: 4px;
+  				background: #3d3d5c;
+  				margin-left: 60px;
+  				margin-top: -30px;  
+  			}
+  			.triangle{
+  				height: 0;
+			width: 0;
+			border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+  			border-bottom: 45px solid #3d3d5c;
+  			margin-top: 275px;
+  			margin-left: 100px;
+  			position: absolute;
+  		}
+  		.ball{
+  			height: 25px;
+  			width: 25px;
+  			background: #3d3d5c;
+  			border-radius: 100%;
+  			margin-left: 138px;
+  			margin-top: 255px;
+  			position: absolute; 
+  		}
+  		.l{
+  			height: 30px;
+  			width: 5px;
+  			background: #3d3d5c;
+  			margin-left: 148px;
+  			margin-top: 230px;
+  			position: absolute;  
+  		}
+  		.light{
+  			height: 45px;
+  			width: 1310px;
+  			margin-left: 195px;
+  			margin-top: -120px;
+  			position: absolute;
+  			transform-style: preserve-3d;
+  			transform-origin: left center;
+  			transform: perspective(400px) rotateY(-35deg);
+  			background: linear-gradient(90deg,#f7f2b4 40%, rgba(255,255,255,0) 100% );
+  			animation: light 4s linear infinite;
+	}
+	@keyframes light{
+					25%{
+						transform: perspective(30px);
+					}
+					75%{
+						transform: perspective(300px);
+					}
+					100%{
+						transform: perspective(500px);
+					}
+	}
+
+
+	</style>
+</head>
+<body>
+<div class="page">
+	<div class="page1">
+	<div class="moon"></div>
+	<div class="t1"></div>
+	<div class="t2"></div>
+	<div class="t3"></div>
+	<div class="t4"></div>
+	<div class="voat">
+		<div class="base"></div>
+		<div class="b1"></div>
+		<div class="b2"></div></div>
+	<div style="margin-top: -140px; position: absolute;"><div class="tr1"></div>
+	<div class="tr2"></div>
+	<div class="tr3"></div>
+	<div class="tr4"></div>
+	<div class="tr5"></div>
+	<div class="tr6"></div>
+	<div class="tr7"></div>
+	<div class="tr8"></div>
+	<div class="tr9"></div>
+	<div class="tr10"></div>
+	<div class="line"></div>
+	<div class="door"></div>
+	<div class="st1">
+		<p>_____</p>
+	</div>
+	<div class="st2">
+		<p>_____</p>
+	</div>
+	<div class="win1"></div>
+	<div class="win2"></div>
+	<div class="win3"></div>
+	<div>
+		<div class="rect">
+			<div class="l1"></div>
+			<div class="l2"></div>
+			<div class="l3"></div>
+			<div class="l4"></div>
+			<div class="l5"></div>
+			<div class="l6"></div>
+		</div>
+		
+	</div>
+		<div class="w1">
+			<div class="wi1"></div>
+			<div class="wi2"></div>
+			<div class="wi3"></div>
+		</div>
+		
+		<div class="triangle"></div>
+		<div class="ball"></div>
+		<div class="l"></div>
+
+</div></div>
+<div class="light"></div></div>
+</body>
+</html>
